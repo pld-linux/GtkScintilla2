@@ -1,5 +1,3 @@
-#
-%define __spec_install_post /usr/lib/rpm/brp-compress || :
 Summary:	GtkScintilla2 - A GTK+2 wrapper for Scintilla editing component
 Name:		GtkScintilla2
 Version:	0.0.8
