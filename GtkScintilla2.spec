@@ -61,6 +61,8 @@ Statyczna biblioteka GtkScintilla2.
 	CC="%{__cc}" \
 	LD="%{__cxx}" \
 	CFLAGS="%{rpmcflags} -fPIC `pkg-config --cflags gtk+-2.0` -Wall -DGTK -DSCI_LEXER" \
+	LIB_DIR=%{_libdir} \
+	PKG_CONFIG_DIR=%{_pkgconfigdir} \
 	SCINTILLA_LIB= \
 	SCINTILLA_INCLUDE=/usr/include/scintilla \
 	SCINTILLA_IFACE=scintilla/include/Scintilla.iface \
@@ -71,6 +73,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	SCINTILLA_LIB= \
+	LIB_DIR=%{_libdir} \
+	PKG_CONFIG_DIR=%{_pkgconfigdir} \
 	DESTDIR=$RPM_BUILD_ROOT 
 
 %clean
