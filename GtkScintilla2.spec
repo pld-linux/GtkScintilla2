@@ -7,7 +7,7 @@ License:	LGPL
 Group:		Libraries
 Source0:	http://www.gphpedit.org/releases/%{name}-%{version}.tar.gz
 # Source0-md5:	e275b450c59575adef18175c099df79d
-BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	pkgconfig
 BuildRequires:	python
 BuildRequires:	scintilla-devel >= 1.53
