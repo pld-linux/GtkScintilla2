@@ -2,7 +2,7 @@ Summary:	GtkScintilla2 - A GTK+2 wrapper for Scintilla editing component
 Summary(pl):	GtkScintilla2 - wrapper GTK+2 do komponentu edycyjnego Scintilla
 Name:		GtkScintilla2
 Version:	0.0.8
-Release:	0.1
+Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://www.gphpedit.org/releases/%{name}-%{version}.tar.gz
