@@ -31,6 +31,7 @@ Summary(pl):	Pliki nag³ówkowe biblioteki GtkScintilla2
 Group:		Development/Libraries
 Requires:	%{name} = %{version}
 Requires:	gtk+2-devel >= 2.0.0
+Requires:	pkgconfig
 Requires:	scintilla-devel >= 1.53
 
 %description devel
@@ -75,7 +76,7 @@ rm -rf $RPM_BUILD_ROOT
 	SCINTILLA_LIB= \
 	LIB_DIR=%{_libdir} \
 	PKG_CONFIG_DIR=%{_pkgconfigdir} \
-	DESTDIR=$RPM_BUILD_ROOT 
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
