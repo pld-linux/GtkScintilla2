@@ -29,7 +29,7 @@ innych).
 Summary:	Header files for GtkScintilla2 library
 Summary(pl):	Pliki nag³ówkowe biblioteki GtkScintilla2
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	gtk+2-devel >= 2.0.0
 Requires:	scintilla-devel >= 1.53
 
@@ -45,7 +45,7 @@ biblioteki GtkScintilla2.
 Summary:	Static GtkScintilla2 library
 Summary(pl):	Statyczna biblioteka GtkScintilla2
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static GtkScintilla2 library.
