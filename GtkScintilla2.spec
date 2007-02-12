@@ -1,5 +1,5 @@
 Summary:	GtkScintilla2 - A GTK+2 wrapper for Scintilla editing component
-Summary(pl.UTF-8):   GtkScintilla2 - wrapper GTK+2 do komponentu edycyjnego Scintilla
+Summary(pl.UTF-8):	GtkScintilla2 - wrapper GTK+2 do komponentu edycyjnego Scintilla
 Name:		GtkScintilla2
 Version:	0.0.8
 Release:	1
@@ -27,7 +27,7 @@ innych).
 
 %package devel
 Summary:	Header files for GtkScintilla2 library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki GtkScintilla2
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki GtkScintilla2
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gtk+2-devel >= 2.0.0
@@ -43,7 +43,7 @@ biblioteki GtkScintilla2.
 
 %package static
 Summary:	Static GtkScintilla2 library
-Summary(pl.UTF-8):   Statyczna biblioteka GtkScintilla2
+Summary(pl.UTF-8):	Statyczna biblioteka GtkScintilla2
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
