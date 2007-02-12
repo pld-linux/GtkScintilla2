@@ -1,5 +1,5 @@
 Summary:	GtkScintilla2 - A GTK+2 wrapper for Scintilla editing component
-Summary(pl):	GtkScintilla2 - wrapper GTK+2 do komponentu edycyjnego Scintilla
+Summary(pl.UTF-8):   GtkScintilla2 - wrapper GTK+2 do komponentu edycyjnego Scintilla
 Name:		GtkScintilla2
 Version:	0.0.8
 Release:	1
@@ -19,15 +19,15 @@ This is GtkScintilla2, a GTK+2 wrapper for the Scintilla
 (http://www.scintilla.org/) editing component which adds some facility
 to this powerful component written by Neil Hodgson (and many others).
 
-%description -l pl
+%description -l pl.UTF-8
 To jest GtkScintilla2 - wrapper GTK+2 do komponentu edycyjnego
-Scintilla (http://www.scintilla.org/) dodaj±cy nieco udogodnieÒ do
-tego potÍønego komponentu napisanego przez Neila Hodgsona (i wielu
+Scintilla (http://www.scintilla.org/) dodajƒÖcy nieco udogodnie≈Ñ do
+tego potƒô≈ºnego komponentu napisanego przez Neila Hodgsona (i wielu
 innych).
 
 %package devel
 Summary:	Header files for GtkScintilla2 library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki GtkScintilla2
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki GtkScintilla2
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gtk+2-devel >= 2.0.0
@@ -37,20 +37,20 @@ Requires:	scintilla-devel >= 1.53
 Headers files needed for compiling other programs against
 GtkScintilla2.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe potrzebne do kompilacji innych programÛw uøywaj±cych
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe potrzebne do kompilacji innych program√≥w u≈ºywajƒÖcych
 biblioteki GtkScintilla2.
 
 %package static
 Summary:	Static GtkScintilla2 library
-Summary(pl):	Statyczna biblioteka GtkScintilla2
+Summary(pl.UTF-8):   Statyczna biblioteka GtkScintilla2
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static GtkScintilla2 library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka GtkScintilla2.
 
 %prep
